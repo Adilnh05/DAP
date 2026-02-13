@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+myenv/
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# Logs
+*.log
+
+# Storage
+storage/
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+{
+  "name": "dap",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && uvicorn main:app --reload --port 8000",
+    "db:up": "cd infra && docker compose up -d",
+    "db:down": "cd infra && docker compose down"
+  }
+}
